@@ -6,8 +6,9 @@
 		<!-- <?php the_title(); ?> -->
 	</h1>
 </div>
-<div class="container-fluid d-block d-md-flex">
-	<div class="col-12 col-md-3">
+<div class="container-fluid d-block d-md-flex">	
+<div class="col-2"></div>
+	<div class="col-12 col-md-2">
 		<aside class="site__sidebar">
 			<ul>
 				<!-- SIDEBAR GAUCHE Start -->
@@ -20,14 +21,14 @@
 			</ul>
 		</aside>
 	</div>
-	<div class="col-12 col-md-6 bg-light">
+	<div class="col-12 col-md-4 bg-light">
 		<aside class="site__sidebar">
 			<ul>
 				<!-- SIDEBAR CENTRALE MAIN* mais pas utilisé  Start -->
 				<?php dynamic_sidebar( 'sidebar-front-page-widget-area' ); ?>
 				<!-- SIDEBAR CENTRALE MAIN* mais pas utilisé  END -->
 				<!-- Contenue afficher par un echo d'un shortcode Start-->
-				<?php echo do_shortcode( '[the-post-grid id="156" title=""]' ); ?>
+				<?php echo do_shortcode( '[the-post-grid id="23" title="All post"]' ); ?>
 				<!-- Contenue afficher par un echo d'un shortcode END-->
 			</ul>
 		</aside>
@@ -35,7 +36,7 @@
 		<?php the_content(); ?>
 		<!-- Contenue wordpress END -->
 	</div>
-	<div class="col-12 col-md-3">
+	<div class="col-12 col-md-2">
 		<aside class="site__sidebar">
 			<ul>
 				<!-- SIDEBAR DROITE Start -->
@@ -47,7 +48,8 @@
 				<!-- SIDEBAR DROITE END -->
 			</ul>
 		</aside>
-	</div>
+	</div>	
+<div class="col-2"></div>
 </div>
 <?php endwhile; endif; ?>
 <?php get_footer(); ?>

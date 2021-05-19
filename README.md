@@ -10,6 +10,9 @@ Opérations demander pour **ECF-4**:
 - Concevoir le Template du CMS.
 - Déployer le site sur un serveur Web.
 
+# Demo du théme
+http://fabrice.ssh.cfa.nc/wordpress/ 
+
 ## IMPORTANT SI UTILISATION du théme / Outils et démarche à effectuer
 
 Outils(plugin) utiliser : 
@@ -34,7 +37,7 @@ l'affichage se fait donc grace à The Post Grid comme en peut le voir à la lign
 ## START 
 
 #### 1/ Réalisations du cahier des charges et du maquettage
-#### 2/ La Sécuriter appliquait sur mon wordpress
+#### 2/ La Sécuriter appliquait sur le wordpress
 #### 3/ INSTALATION DU PROJET 
 
 ## 1/ Réalisations du cahier des charges et du maquettage 
@@ -87,14 +90,14 @@ Par défaut, lorsque la base de données de WordPress est créer elle aura pour 
 
 -   **2 /** En deuxiéme lieu créer les catatégorie :
 
--   Sportives
--   Culturelles
+    -   Sportives
+    -   Culturelles
 
 -   **3 /** Troisièmement Créer les pages :
 
--   Accueil
--   Culturelles
--   Sportives
+    -   Accueil
+    -   Culturelles
+    -   Sportives
 
 -   **4 /** Ensuite Installer le plugin The Post Grid :
 Choisisez un layout et instaler le soie avec la function php à imbriqué dans le code soie par un shortcode que tu intégre dans les sidebar prévue pour les accueillir .

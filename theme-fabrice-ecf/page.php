@@ -4,6 +4,7 @@
       <h1 class="title text-center"><?php the_title(); ?></h1>
     </div>	
 		<div class="container-fluid d-flex">
+			<div class="col-2"></div>
 			<div class="col-2">	
 				<!-- SIDEBAR dynamique start -->			
 				<aside class="site__sidebar">
@@ -31,19 +32,18 @@
         		</aside>
 				<!-- SIDEBAR dynamique END -->
 			</div>
-			<div class="col-1"></div>
-			<div class="col-8">		
-			<div class="col-1"></div>
+			<div class="col-6">		
+			<div class="col-2"></div>
 				<!-- Content dynamique Start -->	
 				<?php the_content();?>
 				<?php
 							if (is_page( 'culturelles' ) ):
 								  echo"Catégorie : <strong>culturelles</strong>";
-								echo do_shortcode( '[the-post-grid id="344" title="Culturelle page"]' );
+								echo do_shortcode( '[the-post-grid id="84" title="Culturelle page"]' );
 								endif;
 							if (is_page( 'sportives' ) ):																
 								echo"Catégorie : <strong>sportives</strong>";					
-								echo do_shortcode( '[the-post-grid id="346" title="Sport page"]' );
+								echo do_shortcode( '[the-post-grid id="85" title="Sport page"]' );
 							endif;
 						?> 						
 				<!-- Content dynamique Start -->	
