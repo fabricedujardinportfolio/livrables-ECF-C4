@@ -43,7 +43,7 @@
 				<?php dynamic_sidebar( 'sidebar-1' ); ?>
 				<div class="text-center">
 					<a href='<?php echo home_url ('/culturelles', ''); ?>' class="modifLien">Voire tous les articles
-						sportive</a>
+						culturelles</a>
 				</div>
 				<!-- SIDEBAR DROITE END -->
 			</ul>
