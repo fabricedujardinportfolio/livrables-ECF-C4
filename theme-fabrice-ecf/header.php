@@ -105,7 +105,7 @@
     </style>
   </head>
   <body <?php body_class();?>>
-    <header class="header">
+    <header class="header" style="background-color: antiquewhite;">
       <!-- Debut -->
         <nav class="navbar navbar-dark bg-muted m-auto minHeightfixe border-bottom border-warning">
           <div class=" col-12 d-none d-md-block d-lg-block" id="navbarsExample08">
@@ -126,6 +126,9 @@
                   <?php wp_nav_menu();?>
                 </div>
                 <div class="col-12 text-center">
+					<h1 style="font-family: Pineforest;">
+						LE PAYS
+					</h1>
                   <img src="<?php echo get_template_directory_uri(); ?>/img/header.png" alt="" width="150" height="150" class="m-auto">
                 </div>
               </div> 
