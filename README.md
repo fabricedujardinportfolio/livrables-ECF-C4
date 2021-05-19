@@ -10,15 +10,41 @@ Opérations demander pour **ECF-4**:
 - Concevoir le Template du CMS.
 - Déployer le site sur un serveur Web.
 
+## IMPORTANT SI UTILISATION du théme / Outils et démarche à effectuer
+
+Outils(plugin) utiliser : 
+-   FakerPress : FakerPress est un moyen propre de générer de fausses données sur votre installation WordPress, idéal pour les développeurs qui ont besoin de tests.
+-   The Post Grid : Moyen rapide et facile d'afficher un article WordPress en vue Grille, Liste et Isotope (filtre par catégorie, étiquette, auteur ..) sans une seule ligne de codage.
+
+Nom des catégorie utilisé  : 
+-   Sportives
+-   Culturelles
+
+Nom des pages utilisé  : 
+-   Accueil
+-   Culturelles
+-   Sportives
+
+l'affichage se fait donc grace à The Post Grid comme en peut le voir à la ligne 42 et 46 du fichier page.php du thème.
+1   Il est important à nommer vos pages t'elle quelle **[Accueil Culturelles Sportives]** ou modifier le fichier en conséquence de votre nomage sur les pages.
+*Exemple à la ligne  40 ou 44 du fichier page.php* 
+
+2   Il est tout aussi important de nommer vos catégories  t'elle quelle **[Sportives Culturelles]** ou modifier le fichier en conséquence de votre nomage sur la catégorie.
+
+## START 
+
+#### 1/ Réalisations du cahier des charges et du maquettage
+#### 2/ La Sécuriter appliquait sur mon wordpress
+#### 3/ INSTALATION DU PROJET 
 
 ## 1/ Réalisations du cahier des charges et du maquettage 
 ### Cahier des charges
-Le cachier des charges se trouve dans le dossier **Livrables/LeCahierDesCharges**
+Le cahier des charges se trouve dans le dossier **Livrables/LeCahierDesCharges**
 
 ### Le maquettage
 Le maquettage se trouve dans le dossier **Livrables/LaMaquetteDuSite**
 
-## 2/ La Sécuriter appliquer sur mon wordpress  
+## 2/ La Sécuriter appliquait sur mon wordpress
 ### Mettre à jour votre WordPress, vos extensions et thèmes
 De nouvelles failles sont découvertes quotidiennement dans les versions actuelles de WordPress, de vos extensions ou de vos thèmes. Ces vulnérabilités apparaissent à la suite de modifications réalisées par les développeurs lors de mises à jour de fonctionnalités ou sont d’anciennes failles jusqu’à présent non découvertes ou non corrigées
 
@@ -50,5 +76,30 @@ deny from all
 </Files>
 ```
 ### Modifier le préfixe par défaut de la base de données de WordPress
-Par défaut, lorsque la base de données de WordPress se créée elle aura pour préfixe *« wp_ ».* Comme pour toutes les configurations par défaut de WordPress ceci est un avantage pour les pirates qui sauront quoi attaquer.
+Par défaut, lorsque la base de données de WordPress est créer elle aura pour préfixe *« wp_ ».* Comme pour toutes les configurations par défaut de WordPress ceci est un avantage pour les pirates qui sauront quoi attaquer.
 *Des préfixes adaptés seront donc implantés .*
+
+## 3/ INSTALATION DU PROJET 
+
+-   **1 /** Copier le dossier theme-fabrice-ecf et coller le dans wordpress :
+    -   wp-content
+        -   themes
+
+-   **2 /** En deuxiéme lieu créer les catatégorie :
+
+-   Sportives
+-   Culturelles
+
+-   **3 /** Troisièmement Créer les pages :
+
+-   Accueil
+-   Culturelles
+-   Sportives
+
+-   **4 /** Ensuite Installer le plugin The Post Grid :
+Choisisez un layout et instaler le soie avec la function php à imbriqué dans le code soie par un shortcode que tu intégre dans les sidebar prévue pour les accueillir .
+
+-   **5 /** Puis Créer des jeux de données avec le plugin FakerPress :
+Une fois installer choisisez l'onglet article et rajouter le nombre de fake article que vous voulez . 
+
+-   **6 /** Paramétrer correctement les différent post pour que l'affichage visé soie en concordance à la page ou la catégorie et bien sûre la ou le short code à était déposer . 

@@ -3,13 +3,17 @@ Theme Name: Théme fabrice ECF 4
 Author: Fabrice
 Description: Ce théme représente un théme complet pour un site de nouvelle
 Version: 0.0.1
-
 */
 
 
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+/* compensation  */
+.menu {
+    position: inherit;
+    top: 0px;
+}
 
 html {
     font-family: sans-serif;
@@ -82,7 +86,7 @@ h1 {
 }
 
 mark {
-    background: #ff0;
+    background: #ECB139;
     color: #242424 ;
 }
 
