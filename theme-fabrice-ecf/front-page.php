@@ -7,7 +7,7 @@
 	</h1>
 </div>
 <div class="container-fluid d-block d-md-flex">	
-<div class="col-2"></div>
+<div class="col-1"></div>
 	<div class="col-12 col-md-2">
 		<aside class="site__sidebar">
 			<ul>
@@ -21,7 +21,7 @@
 			</ul>
 		</aside>
 	</div>
-	<div class="col-12 col-md-4 bg-light">
+	<div class="col-12 col-md-6 bg-light">
 		<aside class="site__sidebar">
 			<ul>
 				<!-- SIDEBAR CENTRALE MAIN* mais pas utilisé  Start -->
@@ -49,7 +49,7 @@
 			</ul>
 		</aside>
 	</div>	
-<div class="col-2"></div>
+<div class="col-1"></div>
 </div>
 <?php endwhile; endif; ?>
 <?php get_footer(); ?>

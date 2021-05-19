@@ -8,6 +8,14 @@
       #respond {
         float: inherit;
       }
+	.rt-tpg-container .layout1 .rt-holder .rt-img-holder img {
+    	max-width: auto; 
+		max-height :300px;
+		width: 100%;
+		}
+		#rt-tpg-container-998701299>div>.rt-img-holder{
+			max-height:244px;
+		}
       .modifLien{
         padding:5px;
         background-color:#fa5742 !important;
