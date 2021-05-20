@@ -29,10 +29,20 @@ Nom des pages utilisé  :
 -   Sportives
 
 l'affichage se fait donc grace à The Post Grid comme en peut le voir à la ligne 42 et 46 du fichier page.php du thème.
-1   Il est important à nommer vos pages t'elle quelle **[Accueil Culturelles Sportives]** ou modifier le fichier en conséquence de votre nomage sur les pages.
-*Exemple à la ligne  40 ou 44 du fichier page.php* 
 ```
 echo do_shortcode( '[the-post-grid id="85" title="Sport page"]' );
+```
+1   Il est important à nommer vos pages t'elle quelle **[Accueil Culturelles Sportives]** ou modifier le fichier en conséquence de votre nomage sur les pages.
+*Exemple à la ligne  40 ou 44 du fichier page.php* 
+```php
+	if (is_page( 'culturelles' ) ):
+		echo"Catégorie : <strong>culturelles</strong>";
+		echo do_shortcode( '[the-post-grid id="84" title="Culturelle page"]' );
+		endif;
+	if (is_page( 'sportives' ) ):																
+        echo"Catégorie : <strong>sportives</strong>";					
+        echo do_shortcode( '[the-post-grid id="85" title="Sport page"]' );
+        endif;	
 ```
 
 2   Il est tout aussi important de nommer vos catégories  t'elle quelle **[Sportives Culturelles]** ou modifier le fichier en conséquence de votre nomage sur la catégorie.
