@@ -57,6 +57,7 @@ Monsieur Do le directeur du journal, est très attaché au papier et au confort 
 
 •	Nous aurons besoin d’un Hébergement pour votre site internet
 <p>Les solutions utilisées seront :</p>
+
 -    • Le CMS Wordpress
 -    • Une Template sur mesure. 
 -    • Des plugins de sécurité.
