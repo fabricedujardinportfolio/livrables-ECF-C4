@@ -35,11 +35,12 @@ Monsieur Do le directeur du journal, est très attaché au papier et au confort 
 <p>Les maquettes contiennent :</p>
 
 • L’arborescence du site 
-    • Une page « A la Une ! »
-    • Une partie événement sera sur la page « A la Une ! »
-    • Une page « tous les articles ! »
-    • Une page « Activités culturelles »
-    • Une page « Activités sportives »
+
+- • Une page « A la Une ! »
+- • Une partie événement sera sur la page « A la Une ! »
+- • Une page « tous les articles ! »
+- • Une page « Activités culturelles »
+- • Une page « Activités sportives »
 
 ## C. SPECIFICITES ET LIVRABLES :
 
@@ -48,11 +49,11 @@ Monsieur Do le directeur du journal, est très attaché au papier et au confort 
 
 •	Nous aurons besoin d’un Hébergement pour votre site internet
 •	Les solutions utilisées seront :
-    • Le CMS Wordpress
-    • Une Template sur mesure. 
-    • Des plugins de sécurité.
-    • Des outils de maquetage. 
-    • Des outils de prototypage. 
+-    • Le CMS Wordpress
+-    • Une Template sur mesure. 
+-    • Des plugins de sécurité.
+-    • Des outils de maquetage. 
+-    • Des outils de prototypage. 
 
 
 ## C. 2. LE CONTENU DE VOTRE SITE WORDPRESS :
@@ -70,6 +71,8 @@ Nous devrons Créer un accès rapide aux différents évènements à venir sur l
 <p>
 Créer la taxonomie du site. Elle devra permettre de naviguer sur les contenus de manière intuitive par catégories ou à l’aide de tags. 
 </p>
+
+- Création des catégories pour le site : culturelles etsportives 
 <p>
  Le site devra remplir le rôle premier du site qui est d’informer et de présenter les informations de manière chronologique pour prioriser la une des informations du jour.
 </p>
