@@ -24,6 +24,7 @@ Le journal a pour réputation de relayer les activités sportives et culturelles
 
 - Le site doit être facile de navigation, et doit faciliter la lecture des articles auprès des lecteurs (contraste des couleurs, taille de la police et choix de la police).
 
+
 ## B. 1. LA CHARTE GRAPHIQUE :
 <p>
 Monsieur Do le directeur du journal, est très attaché au papier et au confort de lecture que peut fournir ce support. Il souhaite donc que le site soit simple d’utilisation et aussi agréable à la lecture que sa version papier. 
@@ -31,6 +32,12 @@ Monsieur Do le directeur du journal, est très attaché au papier et au confort 
 <p><strong>Exemple : https://www.lemonde.fr/</strong></p>
 
 ## B. 2. WIREFRAME ET MAQUETTAGE :
+
+![Screenshot](../LaMaquetteDuSite/accueil.jpg) 
+
+![Screenshot](../LaMaquetteDuSite/catégorie.jpg) 
+
+![Screenshot](../LaMaquetteDuSite/post.jpg) 
 
 <p>Les maquettes contiennent :</p>
 
@@ -76,7 +83,6 @@ Créer la taxonomie du site. Elle devra permettre de naviguer sur les contenus d
 <p>
  Le site devra remplir le rôle premier du site qui est d’informer et de présenter les informations de manière chronologique pour prioriser la une des informations du jour.
 </p>
-
 -	Crée un affichage chronologique des événements.
 
 ## C.	3. LE PLANNING :
