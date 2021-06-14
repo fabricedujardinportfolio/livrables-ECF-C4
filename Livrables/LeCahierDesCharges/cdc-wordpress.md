@@ -33,11 +33,11 @@ Monsieur Do le directeur du journal, est très attaché au papier et au confort 
 
 ## B. 2. WIREFRAME ET MAQUETTAGE :
 
-![Screenshot](../LaMaquetteDuSite/accueil.jpg) 
+![Screenshot](../LaMaquetteDuSite/accueil.jpg = 250x250)
 
-![Screenshot](../LaMaquetteDuSite/catégorie.jpg) 
+![Screenshot](../LaMaquetteDuSite/catégorie.jpg = 250x250)
 
-![Screenshot](../LaMaquetteDuSite/post.jpg) 
+![Screenshot](../LaMaquetteDuSite/post.jpg = 250x250)
 
 <p>Les maquettes contiennent :</p>
 
